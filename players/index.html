@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>xQc Party Animals - Players</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <script src="/js/countdown.js" defer></script>
+    <script src="/js/navbar.js" defer></script>
+    <script src="/js/players.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="countdown-container">
+        <img src="/img/blocks_1.svg" alt="Blocks 1" class="blocks-1" />
+        <img src="/img/blocks_2.svg" alt="Blocks 2" class="blocks-2" />
+        <img
+          src="/img/side_animal_players.svg"
+          alt="Side Animal"
+          class="side-animal"
+        />
+
+        <p class="cooldown-intro">Tournament starts in</p>
+        <div class="countdown-timer">
+          <div class="countdown-segment">
+            <b><p class="countdown-number countdown-number-days">02</p></b>
+            <p class="countdown-format">DAYS</p>
+          </div>
+          <div class="countdown-segment">
+            <b><p class="countdown-number countdown-number-hours">13</p></b>
+            <p class="countdown-format">HOURS</p>
+          </div>
+          <div class="countdown-segment">
+            <b><p class="countdown-number countdown-number-minutes">32</p></b>
+            <p class="countdown-format">MINUTES</p>
+          </div>
+        </div>
+        <a href="https://www.kick.com/xqc" target="_blank" class="watch-host"
+          >Watch Host
+          <i class="material-icons watch-host-icon">arrow_outward</i></a
+        >
+      </div>
+
+      <div class="content">
+        <div class="navbar-container">
+          <div class="navbar-header">
+            <img src="/img/logo.svg" alt="Logo" class="navbar-logo" />
+            <i class="material-icons navbar-toggle">menu</i>
+          </div>
+          <div class="navbar">
+            <a href="/" class="navbar-item">Home</a>
+            <a href="/players" class="navbar-item navbar-item-active"
+              >Players</a
+            >
+            <a href="/bracket" class="navbar-item">Bracket</a>
+            <a href="/rules" class="navbar-item">Rules</a>
+          </div>
+        </div>
+
+        <p class="title">Players</p>
+
+        <div class="teams"></div>
+      </div>
+    </div>
+  </body>
+</html>
